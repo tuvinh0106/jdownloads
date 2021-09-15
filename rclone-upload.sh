@@ -12,7 +12,7 @@ fi
 
 LOGFILE="/root/logs/gclone-upload.log"
 FROM="/root/1Downloads/"
-TO="gc:{0AIQoIeNV-ojTUk9PVA}"
+TO="gc1:{0AIQoIeNV-ojTUk9PVA}"
 
 # CHECK FOR FILES IN FROM FOLDER THAT ARE OLDER THAN 15 MINUTES
 if find $FROM* -type f -mmin +1 | read
