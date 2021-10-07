@@ -8,9 +8,11 @@ chmod +x /usr/bin/gclone
 echo "-----> Gclone Installed"
 
 echo "-----> Download SA"
-wget https://raw.githubusercontent.com/tuvinh0106/jdownloads/main/accounts.zip
-unzip -o accounts.zip
-rm accounts.zip
+wget https://raw.githubusercontent.com/tuvinh0106/jdownloads/main/admin.zip
+wget https://raw.githubusercontent.com/tuvinh0106/jdownloads/main/admin2.zip
+wget https://raw.githubusercontent.com/tuvinh0106/jdownloads/main/adm3.zip
+unzip -o admin.zip
+rm admin.zip
 echo "-----> SA Downloaded"
 
 echo "-----> Download Gclone Config"
