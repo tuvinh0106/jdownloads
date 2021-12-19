@@ -33,6 +33,8 @@ apt install htop -y
 apt install zip -y
 mkdir /root/logs
 touch /root/logs/gclone-upload.log
+wget https://raw.githubusercontent.com/tuvinh0106/jdownloads/main/teamcp.sh
+chmod a+x teamcp.sh
 wget https://raw.githubusercontent.com/tuvinh0106/jdownloads/main/rclone-upload.sh
 chmod a+x rclone-upload.sh
 crontab -l | { cat; echo "* * * * * /root/rclone-upload.sh >/dev/null 2>&1"; } | crontab -
